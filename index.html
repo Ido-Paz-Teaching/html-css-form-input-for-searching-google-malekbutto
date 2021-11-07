@@ -13,18 +13,18 @@
     <h1>HTML FORMS - with CSS</h1>
 <form action="https://google.co.il/search" target="_blanc">
     <label for="q">Search Text: </label>
-    <input type="text" id="q" name="q" required></br>
+    <input type="text" id="q" name="q" required placeholder="Enter Text">
     <label for="as_qdr">That was updated in: </label>
     <select id="as_qdr" name="as_qdr"></br>
         <option value="w">Previous seven days</option>
         <option value="d">Last 24 hours</option>
         <option value="m">Last month</option>
         <option value="y">Last year</option>
-    </select></br>
+    </select>
     <label for="lr">Search only pages written in Hebrew:</label>
-    <input type="checkbox" id="lr" name="Hebrew" value="lang_iw"></br>
+    <input type="checkbox" id="lr" name="Hebrew" value="lang_iw">
     <label for="num">Number of results: </label>
-    <input type="number" id="num" name="num" max="100" min="1"></br></br>
+    <input type="number" id="num" name="num" max="100" min="1" required placeholder="Enter number">
     <input type="submit" value="Ask Google" style="color: green; border-radius: 15px;">
 </form>
 </body>

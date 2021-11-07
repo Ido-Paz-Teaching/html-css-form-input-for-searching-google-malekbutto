@@ -1,6 +1,4 @@
-*{
+form *{
     margin: 5px;
-}
-label, input, select{
     display: block;
 }
